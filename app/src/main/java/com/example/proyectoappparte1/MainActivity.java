@@ -25,38 +25,39 @@ public class MainActivity extends AppCompatActivity {
         btn_avatar6 = (ImageButton) findViewById(R.id.btn_avatar6);
         et_usuario = (EditText) findViewById(R.id.et_usuario);
     }
-   /* public void usuario1 (View view){
-        Intent i = new Intent(this, "");
+    public void usuario1 (View view){
+        Intent i = new Intent(this, MenuPrincipal. class);
         i.putExtra("dato",et_usuario.getText().toString());
         startActivity(i);
 
     }
     public void usuario2 (View view) {
-        Intent i = new Intent(this, -. class);
+        Intent i = new Intent(this, MenuPrincipal. class);
         i.putExtra("dato", et_usuario.getText().toString());
         startActivity(i);
     }
     public void usuario3 (View view) {
-        Intent i = new Intent(this, -----------. class);
+        Intent i = new Intent(this, MenuPrincipal. class);
         i.putExtra("dato", et_usuario.getText().toString());
         startActivity(i);
     }
     public void usuario4 (View view) {
-        Intent i = new Intent(this, -----------. class);
+        Intent i = new Intent(this, MenuPrincipal. class);
         i.putExtra("dato", et_usuario.getText().toString());
+
         startActivity(i);
     }
     public void usuario5 (View view) {
-        Intent i = new Intent(this, -----------. class);
+        Intent i = new Intent(this, MenuPrincipal. class);
         i.putExtra("dato", et_usuario.getText().toString());
         startActivity(i);
     }
     public void usuario6 (View view) {
-        Intent i = new Intent(this, -----------. class);
+        Intent i = new Intent(this, MenuPrincipal. class);
         i.putExtra("dato", et_usuario.getText().toString());
         startActivity(i);
     }
 
 
-*/
+
 }
