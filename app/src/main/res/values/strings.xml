@@ -1,8 +1,24 @@
 <resources>
+
+    // ACTIVITY MAIN //
+
     <string name="app_name">proyectoappparte1</string>
-    <string name="et_usuario">             Introduce tu nombre</string>
+    <string name="et_usuario">Campo para introducir tu nombre</string>
+    <string name="tx_avatar">Textview "Introduce tu nombre"</string>
+    <string name="btn_avatar1">Avatar 1 (hombre)</string>
+    <string name="btn_avatar2">Avatar 2 (mujer)</string>
+    <string name="btn_avatar3">Avatar 3 (hombre)</string>
+    <string name="btn_avatar4">Avatar 4 (mujer)</string>
+    <string name="btn_avatar5">Avatar 5 (mujer)</string>
+    <string name="btn_avatar6">Avatar 6 (hombre)</string>
+
+
+    // MENU PRINCIPAL //
+
     <string name="item1">Rutinas adiccionales </string>
     <string name="item2">Alimentación</string>
     <string name="item3">Estiramientos</string>
     <string name="item4">Noticias</string>
+
+
 </resources>

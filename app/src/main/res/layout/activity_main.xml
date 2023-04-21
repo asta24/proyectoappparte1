@@ -33,12 +33,14 @@
 
         <ImageButton
             android:id="@+id/btn_avatar1"
-            android:layout_width="match_parent"
+            android:layout_width="367dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#00FFFFFF"
+            android:width="1dp"
+            android:background="@drawable/imageview_borde"
+            android:color="#21094A"
             android:onClick="usuario1"
-            app:srcCompat="@drawable/av1" />
+            app:srcCompat="@id/btn_avatar1" />
 
         <ImageButton
             android:id="@+id/btn_avatar2"
@@ -48,17 +50,6 @@
             android:background="#00FFFFFF"
             android:onClick="usuario2"
             app:srcCompat="@drawable/av2" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="159dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <ImageButton
             android:id="@+id/btn_avatar3"
@@ -78,16 +69,6 @@
             android:onClick="usuario4"
             app:srcCompat="@drawable/av6" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="157dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
-
         <ImageButton
             android:id="@+id/btn_avatar5"
             android:layout_width="401dp"
@@ -104,6 +85,7 @@
             android:layout_weight="1"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/av3" />
+
     </LinearLayout>
 
     <TextView
