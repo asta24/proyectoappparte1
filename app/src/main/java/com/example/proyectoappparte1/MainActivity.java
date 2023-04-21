@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_avatar6 = (ImageButton) findViewById(R.id.btn_avatar6);
         et_usuario = (EditText) findViewById(R.id.et_usuario);
     }
-    /*public void usuario1 (View view){
+   /* public void usuario1 (View view){
         Intent i = new Intent(this, "");
         i.putExtra("dato",et_usuario.getText().toString());
         startActivity(i);

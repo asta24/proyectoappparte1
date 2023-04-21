@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">proyectoappparte1</string>
-    <string name="et_usuario">Introduce tu nombre</string>
+    <string name="et_usuario">             Introduce tu nombre</string>
     <string name="et_usuario2">Introduce tu nombre</string>
 </resources>
