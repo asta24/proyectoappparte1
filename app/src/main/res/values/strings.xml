@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">proyectoappparte1</string>
     <string name="et_usuario">             Introduce tu nombre</string>
-    <string name="et_usuario2">Introduce tu nombre</string>
+    <string name="item1">Rutinas adiccionales </string>
+    <string name="item2">Alimentación</string>
+    <string name="item3">Estiramientos</string>
+    <string name="item4">Noticias</string>
 </resources>
