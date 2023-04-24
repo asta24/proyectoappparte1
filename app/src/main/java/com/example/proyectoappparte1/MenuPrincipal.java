@@ -2,9 +2,11 @@ package com.example.proyectoappparte1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MenuPrincipal extends AppCompatActivity {
@@ -13,7 +15,10 @@ public class MenuPrincipal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
     }
+
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.overflow, menu);
         return true;
@@ -39,7 +44,7 @@ public class MenuPrincipal extends AppCompatActivity {
             Toast.makeText(this, "Opción 2 ", Toast.LENGTH_SHORT).show();
             return true;
         }
-        
+
 
         return super.onOptionsItemSelected(item);
     }

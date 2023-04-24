@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MenuPrincipal">
 
+    <ImageView
+        android:id="@+id/iv_pasar"
+        android:layout_width="133dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/av6" />
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="157dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="134dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

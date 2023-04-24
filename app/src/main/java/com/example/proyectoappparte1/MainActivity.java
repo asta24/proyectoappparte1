@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_avatar6 = (ImageButton) findViewById(R.id.btn_avatar6);
         et_usuario = (EditText) findViewById(R.id.et_usuario);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-       // getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
+        getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
     }
     public void usuario1 (View view){
         Intent i = new Intent(this, MenuPrincipal. class);

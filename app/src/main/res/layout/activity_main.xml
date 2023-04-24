@@ -37,10 +37,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:width="1dp"
-            android:background="@drawable/imageview_borde"
             android:color="#21094A"
             android:onClick="usuario1"
-            app:srcCompat="@id/btn_avatar1" />
+            app:srcCompat="@drawable/av1" />
 
         <ImageButton
             android:id="@+id/btn_avatar2"
