@@ -21,4 +21,13 @@
     <string name="item4">Noticias</string>
 
 
+    // ACTIVITY MAIN ESTIRAMIENTOS //
+
+    <string name="espaldafondo1">Imagen espalda fondo</string>
+    <string name="piernafondo">Imagen pierna fondo </string>
+    <string name="brazobueno">Imagen brazo fondo </string>
+    <string name="xxxxxxxxxx">Imagen hombros fondo </string>
+    <string name="pechofondos24">Imagen pecho fondo </string>
+
+
 </resources>
