@@ -45,19 +45,22 @@ public class MenuPrincipal extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
 
-        if(id == R.id.item3){
+        if(id == R.id.item1){
             Toast.makeText(this, "Compartir", Toast.LENGTH_SHORT).show();
             return true;
         }
-        if(id == R.id.item4){
+        if(id == R.id.item2){
             Toast.makeText(this, "Buscar", Toast.LENGTH_SHORT).show();
             return true;
         }
-        if(id == R.id.item1){
+        if(id == R.id.item3) {
             Toast.makeText(this, "Opción 1 ", Toast.LENGTH_SHORT).show();
             return true;
         }
-        if(id == R.id.item2){
+
+
+
+        if(id == R.id.item4){
             Toast.makeText(this, "Opción 2 ", Toast.LENGTH_SHORT).show();
             return true;
         }
