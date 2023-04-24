@@ -4,23 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BBB0DA"
     tools:context=".MenuPrincipal">
+
+    <TextView
+        android:id="@+id/tv_fondo"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
 
     <ImageView
         android:id="@+id/iv_pasar"
-        android:layout_width="133dp"
-        android:layout_height="114dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="108dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="336dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/av6" />
 
     <TextView
         android:id="@+id/tv_nombre"
-        android:layout_width="157dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="wgwgwg"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="134dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984" />
+
+    <ImageView
+        android:id="@+id/iv_hombre"
+        android:layout_width="317dp"
+        android:layout_height="458dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/siluetamenu" />
+
+    <ImageView
+        android:id="@+id/iv_brazo"
+        android:layout_width="118dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brazobueno" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

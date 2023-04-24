@@ -2,7 +2,7 @@
 
     // ACTIVITY MAIN //
 
-    <string name="app_name">proyectoappparte1</string>
+    <string name="app_name">Muscle Pump</string>
     <string name="et_usuario">Campo para introducir tu nombre</string>
     <string name="tx_avatar">Textview "Introduce tu nombre"</string>
     <string name="btn_avatar1">Avatar 1 (hombre)</string>

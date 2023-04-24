@@ -51,38 +51,39 @@
             app:srcCompat="@drawable/av2" />
 
         <ImageButton
-            android:id="@+id/btn_avatar3"
+            android:id="@+id/btn_avatar5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#00FFFFFF"
-            android:onClick="usuario3"
+            android:onClick="usuario5"
             app:srcCompat="@drawable/av5" />
 
         <ImageButton
-            android:id="@+id/btn_avatar4"
+            android:id="@+id/btn_avatar6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#00FFFFFF"
-            android:onClick="usuario4"
+            android:onClick="usuario6"
             app:srcCompat="@drawable/av6" />
 
         <ImageButton
-            android:id="@+id/btn_avatar5"
+            android:id="@+id/btn_avatar4"
             android:layout_width="401dp"
             android:layout_height="189dp"
             android:layout_weight="1"
             android:background="#00FFFFFF"
-            android:onClick="usuario5"
+            android:onClick="usuario4"
             app:srcCompat="@drawable/av4" />
 
         <ImageButton
-            android:id="@+id/btn_avatar6"
+            android:id="@+id/btn_avatar3"
             android:layout_width="436dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#00FFFFFF"
+            android:onClick="usuario3"
             app:srcCompat="@drawable/av3" />
 
     </LinearLayout>
