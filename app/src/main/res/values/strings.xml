@@ -12,25 +12,41 @@
     <string name="btn_avatar5">Avatar 5 (mujer)</string>
     <string name="btn_avatar6">Avatar 6 (hombre)</string>
 
-
+----------------------------------------------------------------------
     // MENU PRINCIPAL //
 
     <string name="item3">Rutinas adicionales </string>
     <string name="item2">Alimentación</string>
     <string name="item1">Estiramientos</string>
     <string name="item4">Noticias</string>
+----------------------------------------------------------------------
 
+    // ACTIVITY MAIN ADICIONALES //
 
-    // ACTIVITY MAIN ESTIRAMIENTOS //
+    <string name="image_espalda">Imagen espalda fondo</string>
+    <string name="image_piernas">Imagen pierna fondo </string>
+    <string name="image_brazos">Imagen brazo fondo </string>
+    <string name="image_hombros">Imagen hombros fondo </string>
+    <string name="image_pecho">Imagen pecho fondo </string>
 
-    <string name="espaldafondo1">Imagen espalda fondo</string>
-    <string name="piernafondo">Imagen pierna fondo </string>
-    <string name="brazobueno">Imagen brazo fondo </string>
-    <string name="xxxxxxxxxx">Imagen hombros fondo </string>
-    <string name="pechofondos24">Imagen pecho fondo </string>
+    // ACTIVITY MAIN ADICIONALES 2 //
 
     <string name="wv_adicionales">Campo para ver web de ejercicios adicionales</string>
     <string name="btn_volveradicional2">Botón para volver a menú principal</string>
+
+-------------------------------------------------------------------------------
+
+    // ACTIVITY MAIN ESTIRAMIENTOS //
+
+
+
+
+
+    // ACTIVITY MAIN ESTIRAMIENTOS 2 //
+
+    <string name="wv_estiramientos">Campo para ver web de ejercicios adicionales</string>
+    <string name="btn_volverestiramientos2">Botón para volver a menú principal</string>
+
 
 
 </resources>

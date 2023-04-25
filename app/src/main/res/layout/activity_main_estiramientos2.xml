@@ -5,26 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BBB0DA"
-    tools:context=".MainActivityAdicionales_2">
+    tools:context=".MainActivity_Estiramientos_2">
 
     <WebView
-        android:id="@+id/wv_adicionales"
-        android:layout_width="393dp"
-        android:layout_height="489dp"
-        android:layout_marginStart="8dp"
+        android:id="@+id/wv_estiramientos"
+        android:layout_width="386dp"
+        android:layout_height="487dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_volveradicionales2"
+        android:id="@+id/btn_volverestiramientos2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="506dp"
         android:background="@drawable/boton_borde_redondeado"
         android:onClick="Volver"
         android:text="Volver"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/wv_adicionales" />
+        app:layout_constraintTop_toTopOf="@+id/wv_estiramientos" />
 </androidx.constraintlayout.widget.ConstraintLayout>
