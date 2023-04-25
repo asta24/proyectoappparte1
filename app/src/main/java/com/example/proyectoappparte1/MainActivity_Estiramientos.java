@@ -17,21 +17,26 @@ public class MainActivity_Estiramientos extends AppCompatActivity {
 
         switch (view.getId()) {
 
-            case R.id.pechofondos24:
+            case R.id.image_pecho:
                 Toast.makeText(this, "pecho", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.brazobueno:
+            case R.id.image_brazos:
                 Toast.makeText(this, "brazo", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.piernafondo:
+            case R.id.image_piernas:
                 Toast.makeText(this, "piernas", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.espaldafondo1:
+            case R.id.image_espalda:
                 Toast.makeText(this, "espalda", Toast.LENGTH_SHORT).show();
                 break;
+
+            case R.id.image_hombros:
+                Toast.makeText(this, "hombros", Toast.LENGTH_SHORT).show();
+                break;
+
 
 
 
