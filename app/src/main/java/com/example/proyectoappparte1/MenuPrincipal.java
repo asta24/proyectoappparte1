@@ -3,7 +3,6 @@ package com.example.proyectoappparte1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -42,7 +41,7 @@ public class MenuPrincipal extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.item1){
-            Intent i = new Intent(this, MainActivity_Estiramientos. class);
+            Intent i = new Intent(this, MainActivityAdicionales_2. class);
             startActivity(i);
         }
         if(id == R.id.item2){
@@ -50,7 +49,7 @@ public class MenuPrincipal extends AppCompatActivity {
             return true;
         }
         if(id == R.id.item3) {
-            Intent i = new Intent(this, MainActivity_Estiramientos. class);
+            Intent i = new Intent(this, MainActivity_Adicionales. class);
             startActivity(i);
         }
 
