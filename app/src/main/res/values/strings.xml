@@ -29,5 +29,8 @@
     <string name="xxxxxxxxxx">Imagen hombros fondo </string>
     <string name="pechofondos24">Imagen pecho fondo </string>
 
+    <string name="wv_adicionales">Campo para ver web de ejercicios adicionales</string>
+    <string name="btn_volveradicional2">Botón para volver a menú principal</string>
+
 
 </resources>
