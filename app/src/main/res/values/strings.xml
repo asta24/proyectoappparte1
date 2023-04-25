@@ -15,9 +15,9 @@
 
     // MENU PRINCIPAL //
 
-    <string name="item1">Rutinas adiccionales </string>
+    <string name="item3">Rutinas adicionales </string>
     <string name="item2">Alimentación</string>
-    <string name="item3">Estiramientos</string>
+    <string name="item1">Estiramientos</string>
     <string name="item4">Noticias</string>
 
 

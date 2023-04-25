@@ -17,17 +17,17 @@
         android:background="@drawable/textview_borde_redondeado_sincolor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.985" />
+        app:layout_constraintVertical_bias="0.989" />
 
     <ImageView
         android:id="@+id/iv_pasar"
-        android:layout_width="108dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="532dp"
-        android:layout_marginEnd="336dp"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="344dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/av6" />
@@ -41,10 +41,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984" />
+        app:layout_constraintVertical_bias="0.989" />
 
     <ImageView
         android:id="@+id/iv_hombre"
@@ -144,6 +144,7 @@
         android:layout_height="240dp"
         android:layout_marginStart="212dp"
         android:layout_marginTop="4dp"
+        android:onClick="brazo"
         android:rotation="136"
         android:rotationX="-4"
         android:rotationY="-8"

@@ -42,8 +42,8 @@ public class MenuPrincipal extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.item1){
-            Toast.makeText(this, "Compartir", Toast.LENGTH_SHORT).show();
-            return true;
+            Intent i = new Intent(this, MainActivity_Estiramientos. class);
+            startActivity(i);
         }
         if(id == R.id.item2){
             Toast.makeText(this, "Buscar", Toast.LENGTH_SHORT).show();
@@ -63,5 +63,9 @@ public class MenuPrincipal extends AppCompatActivity {
 
 
         return super.onOptionsItemSelected(item);
+    }
+    public void brazo (View view){
+        Intent i = new Intent(this, brazo. class);
+        startActivity(i);
     }
 }
