@@ -36,11 +36,7 @@ public class MenuPrincipal extends AppCompatActivity {
         return true;
 
     }
-    public void brazo (View view) {
-        Toast.makeText(this, "brazo lio", Toast.LENGTH_SHORT).show();
 
-
-    }
     //Método para aherhar las acciones a todos los botones
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
@@ -54,8 +50,8 @@ public class MenuPrincipal extends AppCompatActivity {
             return true;
         }
         if(id == R.id.item3) {
-            Toast.makeText(this, "Opción 1 ", Toast.LENGTH_SHORT).show();
-            return true;
+            Intent i = new Intent(this, MainActivity_Estiramientos. class);
+            startActivity(i);
         }
 
 
