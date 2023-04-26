@@ -4,14 +4,13 @@
 
     <item
         android:id="@+id/item1"
-        android:title="Adicionales" />
+        android:title="Rutinas Adicionales" />
     <item
         android:id="@+id/item2"
-        android:title="@string/item2"
-        />
+        android:title="@string/item2" />
     <item
         android:id="@+id/item3"
-        android:title="@string/item3" />
+        android:title="Estiramientos" />
     <item
         android:id="@+id/item4"
         android:title="@string/item4" />
