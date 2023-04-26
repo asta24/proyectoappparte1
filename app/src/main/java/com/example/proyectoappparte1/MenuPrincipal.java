@@ -41,25 +41,22 @@ public class MenuPrincipal extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.item1){
-            Intent i = new Intent(this, MainActivityAdicionales_2. class);
-            startActivity(i);
-        }
-        if(id == R.id.item2){
-            Toast.makeText(this, "Buscar", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        if(id == R.id.item3) {
             Intent i = new Intent(this, MainActivity_Adicionales. class);
             startActivity(i);
         }
-
-
-
-        if(id == R.id.item4){
-            Toast.makeText(this, "Opción 2 ", Toast.LENGTH_SHORT).show();
-            return true;
+        if(id == R.id.item2){
+            Intent i = new Intent(this, MainActivity_Alimentacion. class);
+            startActivity(i);
+        }
+        if(id == R.id.item3) {
+            Intent i = new Intent(this, MainActivity_Estiramientos. class);
+            startActivity(i);
         }
 
+        if(id == R.id.item4){
+            Toast.makeText(this, "Noticias", Toast.LENGTH_SHORT).show();
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
