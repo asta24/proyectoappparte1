@@ -25,7 +25,7 @@
             <ImageButton
                 android:id="@+id/image_espalda"
                 android:layout_width="match_parent"
-                android:layout_height="435dp"
+                android:layout_height="348dp"
                 android:contentDescription="@string/image_espalda"
                 android:onClick="Navegarespalda"
                 app:srcCompat="@drawable/image_espalda" />
@@ -34,16 +34,18 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="Navegarespalda"
                 android:text="EJERCICIO ESPALDA"
                 android:textAlignment="center"
                 android:textColor="#004b77"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageButton
                 android:id="@+id/image_pecho"
                 android:layout_width="match_parent"
-                android:layout_height="500dp"
+                android:layout_height="355dp"
                 android:contentDescription="@string/image_pecho"
                 android:onClick="Navegarpecho"
                 android:textAlignment="center"
@@ -53,16 +55,18 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="Navegarpecho"
                 android:text="EJERCICIO PECHO"
                 android:textAlignment="center"
                 android:textColor="#004b77"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageButton
                 android:id="@+id/image_brazos"
-                android:layout_width="wrap_content"
-                android:layout_height="504dp"
+                android:layout_width="match_parent"
+                android:layout_height="361dp"
                 android:contentDescription="@string/image_brazos"
                 android:onClick="Navegarbrazo"
                 app:srcCompat="@drawable/image_brazos" />
@@ -71,16 +75,18 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="Navegarbrazo"
                 android:text="EJERCICIO BRAZOS"
                 android:textAlignment="center"
                 android:textColor="#004b77"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageButton
                 android:id="@+id/image_hombros"
                 android:layout_width="match_parent"
-                android:layout_height="455dp"
+                android:layout_height="343dp"
                 android:contentDescription="@string/image_hombros"
                 android:onClick="Navegarhombros"
                 app:srcCompat="@drawable/image_hombros" />
@@ -89,16 +95,18 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="Navegarhombros"
                 android:text="EJERCICIO HOMBROS"
                 android:textAlignment="center"
                 android:textColor="#004b77"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageButton
                 android:id="@+id/image_piernas"
                 android:layout_width="match_parent"
-                android:layout_height="502dp"
+                android:layout_height="325dp"
                 android:contentDescription="@string/image_piernas"
                 android:onClick="Navegarpiernas"
                 app:srcCompat="@drawable/image_piernas" />
@@ -107,10 +115,12 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="Navegarpiernas"
                 android:text="EJERCICIO PIERNAS"
                 android:textAlignment="center"
                 android:textColor="#004b77"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
         </LinearLayout>
     </ScrollView>

@@ -31,9 +31,11 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:onClick="Estiramientosespalda"
                 android:text="ESTIRAMIENTOS ESPALDA"
                 android:textAlignment="center"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageView
@@ -49,9 +51,11 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:onClick="Estiramientospiernas"
                 android:text="ESTIRAMIENTOS PIERNAS"
                 android:textAlignment="center"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageView
@@ -67,9 +71,11 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:onClick="Estiramientosbrazos"
                 android:text="ESTIRAMIENTOS BRAZOS"
                 android:textAlignment="center"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageView
@@ -85,9 +91,11 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:onClick="Estiramientoshombros"
                 android:text="ESTIRAMIENTOS HOMBROS"
                 android:textAlignment="center"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
 
             <ImageView
@@ -103,9 +111,11 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:onClick="Estiramientospecho"
                 android:text="ESTIRAMIENTOS PECHO"
                 android:textAlignment="center"
                 android:textSize="20sp"
+                android:background="@drawable/edittext_borde_redondeado"
                 android:textStyle="bold|italic" />
         </LinearLayout>
     </ScrollView>
