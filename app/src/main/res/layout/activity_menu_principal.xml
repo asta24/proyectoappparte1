@@ -57,11 +57,23 @@
         app:srcCompat="@drawable/siluetamenu" />
 
     <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="122dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="228dp"
+        android:onClick="pecho"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pechofondos24" />
+
+    <ImageView
         android:id="@+id/iv_brazo"
         android:layout_width="118dp"
         android:layout_height="74dp"
         android:layout_marginStart="308dp"
         android:layout_marginTop="20dp"
+        android:onClick="brazo"
         android:rotationY="178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -73,6 +85,7 @@
         android:layout_height="93dp"
         android:layout_marginTop="164dp"
         android:layout_marginEnd="304dp"
+        android:onClick="espalda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/espaldafondo1" />
@@ -83,19 +96,10 @@
         android:layout_height="109dp"
         android:layout_marginTop="420dp"
         android:layout_marginEnd="268dp"
+        android:onClick="pierna"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/piernafondo" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="122dp"
-        android:layout_height="99dp"
-        android:layout_marginStart="296dp"
-        android:layout_marginTop="228dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pechofondos24" />
 
     <TextView
         android:id="@+id/tv_nada"
@@ -144,7 +148,6 @@
         android:layout_height="240dp"
         android:layout_marginStart="212dp"
         android:layout_marginTop="4dp"
-        android:onClick="brazo"
         android:rotation="136"
         android:rotationX="-4"
         android:rotationY="-8"

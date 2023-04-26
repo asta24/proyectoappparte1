@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Pecho extends AppCompatActivity {
-    private TextView tv_nombre2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class Pecho extends AppCompatActivity {
     }
     public void pecho2 (View view) {
         Intent i = new Intent(this, VerBrazo.class);
-        i.putExtra("gif_seleccionado", "press_horizontal_mancuernas");
+        i.putExtra("gif_seleccionado", "pressinclinadogif");
         startActivity(i);
 
 
