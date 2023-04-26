@@ -28,7 +28,42 @@ public class brazo extends AppCompatActivity {
     }
     public void brazo1 (View view) {
         Intent i = new Intent(this, VerBrazo.class);
+        i.putExtra("gif_seleccionado", "curlbueno");
+        startActivity(i);
 
+
+    }
+    public void brazo2 (View view) {
+        Intent i = new Intent(this, VerBrazo.class);
+        i.putExtra("gif_seleccionado", "concentrado");
+        startActivity(i);
+
+
+    }
+    public void brazo3 (View view) {
+        Intent i = new Intent(this, VerBrazo.class);
+        i.putExtra("gif_seleccionado", "martillo");
+        startActivity(i);
+
+
+    }
+    public void brazo4 (View view) {
+        Intent i = new Intent(this, VerBrazo.class);
+        i.putExtra("gif_seleccionado", "tricepsunbrazo");
+        startActivity(i);
+
+
+    }
+    public void brazo5 (View view) {
+        Intent i = new Intent(this, VerBrazo.class);
+        i.putExtra("gif_seleccionado", "tricepsnopolea");
+        startActivity(i);
+
+
+    }
+    public void brazo6 (View view) {
+        Intent i = new Intent(this, VerBrazo.class);
+        i.putExtra("gif_seleccionado", "antebrazo");
         startActivity(i);
 
 

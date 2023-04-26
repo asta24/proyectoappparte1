@@ -4,6 +4,185 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BBB0DA"
     tools:context=".Pecho">
+
+    <TextView
+        android:id="@+id/tv_fondo3"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <TextView
+        android:id="@+id/tv_nombre3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="#00FFFFFF"
+        android:text="wgwgwg"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <ImageView
+        android:id="@+id/iv_pasar3"
+        android:layout_width="108dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="332dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/av6" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:text="Rutina De Pecho"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pecho1"
+        android:layout_width="248dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="pecho1"
+        android:text="Press Banca: 4x7"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pecho2"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="pecho2"
+        android:text="Press Inclinado: 3x12"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pecho1" />
+
+    <TextView
+        android:id="@+id/tv_pecho3"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="pecho3"
+        android:text="Press Militar: 3x10"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pecho2" />
+
+    <TextView
+        android:id="@+id/tv_pecho4"
+        android:layout_width="251dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="pecho4"
+        android:text="Elevación Hombro: 3x8"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pecho3" />
+
+    <TextView
+        android:id="@+id/tv_pecho5"
+        android:layout_width="266dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="pecho5"
+        android:text="Extensión tríceps: 4x10"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pecho4" />
+
+    <TextView
+        android:id="@+id/tv_pecho6"
+        android:layout_width="280dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="pecho6"
+        android:text="Fondos: 2x15"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pecho5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="203dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="404dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arnoldpecho" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="114dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="4dp"
+        android:rotationY="174"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mancuerna" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="114dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="292dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mancuerna" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
