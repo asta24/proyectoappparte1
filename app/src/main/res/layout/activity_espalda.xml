@@ -4,156 +4,149 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BBB0DA"
     tools:context=".Espalda">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#BBB0DA"
-        tools:context=".Pecho">
+    <TextView
+        android:id="@+id/tv_fondo4"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984" />
 
-        <TextView
-            android:id="@+id/tv_fondo3"
-            android:layout_width="120dp"
-            android:layout_height="33dp"
-            android:background="@drawable/textview_borde_redondeado_sincolor"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.02"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.984" />
+    <TextView
+        android:id="@+id/tv_nombre4"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="#00FFFFFF"
+        android:text="wgwgwg"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
 
-        <TextView
-            android:id="@+id/tv_nombre3"
-            android:layout_width="120dp"
-            android:layout_height="30dp"
-            android:background="#00FFFFFF"
-            android:text="wgwgwg"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.13"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.985" />
+    <ImageView
+        android:id="@+id/iv_pasar4"
+        android:layout_width="108dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="332dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/av6" />
 
-        <ImageView
-            android:id="@+id/iv_pasar3"
-            android:layout_width="108dp"
-            android:layout_height="91dp"
-            android:layout_marginTop="532dp"
-            android:layout_marginEnd="332dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/av6" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:text="Rutina De Espalda"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="278dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="44dp"
-            android:text="Rutina De Espalda"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_Espalda1"
+        android:layout_width="248dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="espalda1"
+        android:text="Jalón Espalda: 3x10"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tv_Espalda1"
-            android:layout_width="248dp"
-            android:layout_height="41dp"
-            android:layout_marginTop="140dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/textview_borde_redondeado_sincolor"
-            android:onClick="espalda1"
-            android:text="Jalón Espalda: 3x10"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_Espalda2"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="espalda2"
+        android:text="Remo: 3x10"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Espalda1" />
 
-        <TextView
-            android:id="@+id/tv_Espalda2"
-            android:layout_width="249dp"
-            android:layout_height="38dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/textview_borde_redondeado_sincolor"
-            android:onClick="espalda2"
-            android:text="Remo: 3x10"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_Espalda1" />
+    <TextView
+        android:id="@+id/tv_Espalda3"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="espalda3"
+        android:text="Dominadas: 2x12"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Espalda2" />
 
-        <TextView
-            android:id="@+id/tv_Espalda3"
-            android:layout_width="206dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/textview_borde_redondeado_sincolor"
-            android:onClick="espalda3"
-            android:text="Dominadas: 2x12"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_Espalda2" />
+    <TextView
+        android:id="@+id/tv_Espalda4"
+        android:layout_width="251dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="espalda4"
+        android:text="Curl Biceps: 3x8"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Espalda3" />
 
-        <TextView
-            android:id="@+id/tv_Espalda4"
-            android:layout_width="251dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/textview_borde_redondeado_sincolor"
-            android:onClick="espalda4"
-            android:text="Curl Biceps: 3x8"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_Espalda3" />
+    <TextView
+        android:id="@+id/tv_Espalda5"
+        android:layout_width="266dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_borde_redondeado_sincolor"
+        android:onClick="espalda5"
+        android:text="Concentrado: 4x10"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Espalda4" />
 
-        <TextView
-            android:id="@+id/tv_espalda5"
-            android:layout_width="266dp"
-            android:layout_height="41dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/textview_borde_redondeado_sincolor"
-            android:onClick="espalda5"
-            android:text="Concentrado: 4x10"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_Espalda4" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="354dp"
-            android:layout_height="488dp"
-            android:layout_marginStart="184dp"
-            android:layout_marginTop="300dp"
-            android:rotationY="182"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/arnoldespalda" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="354dp"
+        android:layout_height="488dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="300dp"
+        android:rotationY="182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arnoldespalda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
