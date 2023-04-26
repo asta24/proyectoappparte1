@@ -24,8 +24,6 @@ public class MainActivity_Estiramientos_2 extends AppCompatActivity {
             URL = "http://" + URL;
         }
         wv_estiramientos.loadUrl(URL);
-    }
-    public void Volver (View view){
-        finish();
+
     }
 }

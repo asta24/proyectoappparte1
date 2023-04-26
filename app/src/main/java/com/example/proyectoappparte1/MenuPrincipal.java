@@ -54,8 +54,8 @@ public class MenuPrincipal extends AppCompatActivity {
         }
 
         if(id == R.id.item4){
-            Toast.makeText(this, "Noticias", Toast.LENGTH_SHORT).show();
-            return true;
+            Intent i = new Intent(this, MainActivity_Noticias. class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
