@@ -72,4 +72,8 @@ public class MenuPrincipal extends AppCompatActivity {
         Intent i = new Intent(this, Espalda. class);
         startActivity(i);
     }
+    public void pierna (View view){
+        Intent i = new Intent(this, Pierna. class);
+        startActivity(i);
+    }
 }
