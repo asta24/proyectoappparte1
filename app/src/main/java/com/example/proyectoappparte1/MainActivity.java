@@ -30,12 +30,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClick(View v) {
+        String nombreUsuario = et_usuario.getText().toString();
         int imagenSeleccionada = 0;
         if (et_usuario.getText().toString().isEmpty()) {
             Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
 
         } else {
             switch (v.getId()) {
+
                 case R.id.iv_avatar1:
                     imagenSeleccionada = R.drawable.av1;
                     break;
@@ -56,10 +58,10 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             // Lanzar la siguiente actividad y pasar el ID de la imagen seleccionada
-            Intent i = new Intent(this, MenuPrincipal.class);
-            i.putExtra("dato", et_usuario.getText().toString());
             Aplicacion aplicacion = (Aplicacion) getApplication();
+            aplicacion.setNombreUsuario(nombreUsuario);
             aplicacion.setImagenSeleccionada(imagenSeleccionada);
+            Intent i = new Intent(this, MenuPrincipal.class);
             startActivity(i);
 
 
