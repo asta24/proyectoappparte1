@@ -21,14 +21,14 @@ public class MenuPrincipal extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
         ImageView imageView = findViewById(R.id.iv_pasar);
+        TextView tv_nombre = findViewById(R.id.tv_nombre);
         Aplicacion aplicacion = (Aplicacion) getApplication();
         int imagenSeleccionada = aplicacion.getImagenSeleccionada();
         imageView.setImageResource(imagenSeleccionada);
+        String nombreUsuario = aplicacion.getNombreUsuario();
+        tv_nombre.setText(nombreUsuario);
 
-        tv_nombre = (TextView) findViewById(R.id.tv_nombre);
 
-        String dato = getIntent().getStringExtra("dato");
-        tv_nombre.setText(dato);
     }
 
     public boolean onCreateOptionsMenu(Menu menu){

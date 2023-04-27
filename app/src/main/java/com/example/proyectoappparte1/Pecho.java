@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Pecho extends AppCompatActivity {
+    private EditText tv_nombre3;
 
 
     @Override
@@ -17,6 +19,13 @@ public class Pecho extends AppCompatActivity {
         setContentView(R.layout.activity_pecho);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
+        ImageView imageView = findViewById(R.id.iv_pasar3);
+        TextView tv_nombre3 = findViewById(R.id.tv_nombre3);
+        Aplicacion aplicacion = (Aplicacion) getApplication();
+        int imagenSeleccionada = aplicacion.getImagenSeleccionada();
+        imageView.setImageResource(imagenSeleccionada);
+        String nombreUsuario = aplicacion.getNombreUsuario();
+        tv_nombre3.setText(nombreUsuario);
 
     }
     public void pecho1 (View view) {
