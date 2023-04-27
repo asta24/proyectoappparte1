@@ -15,6 +15,21 @@
     ----------------------------------------------------------------------
     // MENU PRINCIPAL //
 
+    <string name="tv_fondo">Textview con el fondo </string>
+    <string name="iv_pasar">Imageview con avatar </string>
+    <string name="tv_nombre">Textview con el nombre</string>
+    <string name="iv_hombre">Imageview con perfil de hombre</string>
+    <string name="imageView13">Imageview para ir a rutina pecho</string>
+    <string name="iv_brazo">Imageview para ir a rutina brazo</string>
+    <string name="imageView10">Imageview para ir a rutina espalda</string>
+    <string name="imageView12">Imageview para ir a rutina piernas</string>
+    <string name="tv_nada">Textview Selecciona tu rutina</string>
+    <string name="iv_flecha1">Imageview flecha1</string>
+    <string name="iv_flecha2">Imageview flecha2</string>
+    <string name="iv_flecha3">Imageview flecha3</string>
+    <string name="iv_flecha4">Imageview flecha4</string>
+
+
 
 
     // OVERFLOW //
