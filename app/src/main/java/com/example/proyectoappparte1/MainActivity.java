@@ -29,75 +29,41 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado_background);
 
     }
-    public void usuario1 (View view){
+    public void onClick(View v) {
+        int imagenSeleccionada = 0;
         if (et_usuario.getText().toString().isEmpty()) {
             Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
 
         } else {
+            switch (v.getId()) {
+                case R.id.iv_avatar1:
+                    imagenSeleccionada = R.drawable.av1;
+                    break;
+                case R.id.iv_avatar2:
+                    imagenSeleccionada = R.drawable.av2;
+                    break;
+                case R.id.iv_avatar3:
+                    imagenSeleccionada = R.drawable.av3;
+                    break;
+                case R.id.iv_avatar4:
+                    imagenSeleccionada = R.drawable.av4;
+                    break;
+                case R.id.iv_avatar5:
+                    imagenSeleccionada = R.drawable.av5;
+                    break;
+                case R.id.iv_avatar6:
+                    imagenSeleccionada = R.drawable.av6;
+                    break;
+            }
+            // Lanzar la siguiente actividad y pasar el ID de la imagen seleccionada
             Intent i = new Intent(this, MenuPrincipal.class);
             i.putExtra("dato", et_usuario.getText().toString());
-            i.putExtra("avatar", R.drawable.av1);
+            Aplicacion aplicacion = (Aplicacion) getApplication();
+            aplicacion.setImagenSeleccionada(imagenSeleccionada);
             startActivity(i);
+
+
         }
 
     }
-    public void usuario2 (View view) {
-        if (et_usuario.getText().toString().isEmpty()) {
-            Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
-
-        } else {
-            Intent i = new Intent(this, MenuPrincipal.class);
-            i.putExtra("dato", et_usuario.getText().toString());
-            i.putExtra("avatar", R.drawable.av2);
-            startActivity(i);
-        }
-    }
-    public void usuario3 (View view) {
-        if (et_usuario.getText().toString().isEmpty()) {
-            Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
-
-        } else {
-            Intent i = new Intent(this, MenuPrincipal.class);
-            i.putExtra("dato", et_usuario.getText().toString());
-            i.putExtra("avatar", R.drawable.av3);
-            startActivity(i);
-        }
-    }
-    public void usuario4 (View view) {
-        if (et_usuario.getText().toString().isEmpty()) {
-            Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
-
-        } else {
-            Intent i = new Intent(this, MenuPrincipal.class);
-            i.putExtra("dato", et_usuario.getText().toString());
-            i.putExtra("avatar", R.drawable.av4);
-
-            startActivity(i);
-        }
-    }
-    public void usuario5 (View view) {
-        if (et_usuario.getText().toString().isEmpty()) {
-            Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
-
-        } else {
-            Intent i = new Intent(this, MenuPrincipal.class);
-            i.putExtra("dato", et_usuario.getText().toString());
-            i.putExtra("avatar", R.drawable.av5);
-            startActivity(i);
-        }
-    }
-    public void usuario6 (View view) {
-        if (et_usuario.getText().toString().isEmpty()) {
-            Toast.makeText(this, "El campo Nombre no puede estar vacío", Toast.LENGTH_SHORT).show();
-
-        } else {
-            Intent i = new Intent(this, MenuPrincipal.class);
-            i.putExtra("dato", et_usuario.getText().toString());
-            i.putExtra("avatar", R.drawable.av6);
-            startActivity(i);
-        }
-    }
-
-
-
 }

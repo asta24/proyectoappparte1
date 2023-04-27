@@ -20,12 +20,13 @@ public class MenuPrincipal extends AppCompatActivity {
         setContentView(R.layout.activity_menu_principal);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
+        ImageView imageView = findViewById(R.id.iv_pasar);
+        Aplicacion aplicacion = (Aplicacion) getApplication();
+        int imagenSeleccionada = aplicacion.getImagenSeleccionada();
+        imageView.setImageResource(imagenSeleccionada);
+
         tv_nombre = (TextView) findViewById(R.id.tv_nombre);
-        int idImagen = getIntent().getIntExtra("avatar", -1);
-        if (idImagen != -1) {
-            ImageView imageView = findViewById(R.id.iv_pasar);
-            imageView.setImageResource(idImagen);
-        }
+
         String dato = getIntent().getStringExtra("dato");
         tv_nombre.setText(dato);
     }
