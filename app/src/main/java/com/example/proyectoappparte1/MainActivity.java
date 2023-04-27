@@ -39,22 +39,22 @@ public class MainActivity extends AppCompatActivity {
             switch (v.getId()) {
 
                 case R.id.iv_avatar1:
-                    imagenSeleccionada = R.drawable.av1;
+                    imagenSeleccionada = R.drawable.avatarhombre3;
                     break;
                 case R.id.iv_avatar2:
-                    imagenSeleccionada = R.drawable.av2;
+                    imagenSeleccionada = R.drawable.avatarmujer2;
                     break;
                 case R.id.iv_avatar3:
-                    imagenSeleccionada = R.drawable.av3;
+                    imagenSeleccionada = R.drawable.avatarhombre2;
                     break;
                 case R.id.iv_avatar4:
-                    imagenSeleccionada = R.drawable.av4;
+                    imagenSeleccionada = R.drawable.avatarhombre4;
                     break;
                 case R.id.iv_avatar5:
-                    imagenSeleccionada = R.drawable.av5;
+                    imagenSeleccionada = R.drawable.avatarhombre1;
                     break;
                 case R.id.iv_avatar6:
-                    imagenSeleccionada = R.drawable.av6;
+                    imagenSeleccionada = R.drawable.avatarmujer1;
                     break;
             }
             // Lanzar la siguiente actividad y pasar el ID de la imagen seleccionada

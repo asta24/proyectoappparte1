@@ -35,41 +35,36 @@
         app:layout_constraintTop_toBottomOf="@+id/et_usuario" />
 
     <LinearLayout
-        android:layout_width="215dp"
-        android:layout_height="498dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="206dp"
+        android:layout_height="497dp"
+        android:layout_marginTop="37dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tx_avatar">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/iv_avatar1"
             android:layout_width="match_parent"
-            android:layout_height="153dp"
-            android:backgroundTint="#00FFFFFF"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:onClick="onClick"
-            app:srcCompat="@drawable/av1" />
+            app:srcCompat="@drawable/avatarhombre3" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/iv_avatar3"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="20dp"
-            android:backgroundTint="#00FFFFFF"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:onClick="onClick"
-            app:srcCompat="@drawable/av3" />
+            app:srcCompat="@drawable/avatarhombre2" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/iv_avatar5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
+            android:layout_height="29dp"
+            android:layout_weight="1"
             android:onClick="onClick"
-            app:srcCompat="@drawable/av5" />
-
+            app:srcCompat="@drawable/avatarhombre1" />
     </LinearLayout>
 
     <LinearLayout
@@ -80,34 +75,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tx_avatar">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/iv_avatar2"
             android:layout_width="match_parent"
-            android:layout_height="162dp"
-            android:layout_margin="1dp"
-            android:backgroundTint="#00FFFFFF"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:onClick="onClick"
-            app:srcCompat="@drawable/av2" />
+            app:srcCompat="@drawable/avatarmujer2" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/iv_avatar4"
             android:layout_width="match_parent"
-            android:layout_height="167dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="17dp"
-            android:backgroundTint="#00FFFFFF"
+            android:layout_height="35dp"
+            android:layout_weight="1"
             android:onClick="onClick"
-            app:srcCompat="@drawable/av4" />
+            app:srcCompat="@drawable/avatarhombre4" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/iv_avatar6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="5dp"
-            android:backgroundTint="#00FFFFFF"
+            android:layout_height="34dp"
+            android:layout_weight="1"
             android:onClick="onClick"
-            app:srcCompat="@drawable/av6" />
+            app:srcCompat="@drawable/avatarmujer1" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
