@@ -27,42 +27,42 @@ public class Pierna extends AppCompatActivity {
         tv_nombre5.setText(nombreUsuario);
     }
     public void pierna1 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "sentadilla");
         startActivity(i);
 
 
     }
     public void pierna2 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "bulgara");
         startActivity(i);
 
 
     }
     public void pierna3 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "femoral");
         startActivity(i);
 
 
     }
     public void pierna4 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "sentado");
         startActivity(i);
 
 
     }
     public void pierna5 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "piernaestendida");
         startActivity(i);
 
 
     }
     public void pierna6 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "abdomen");
         startActivity(i);
 

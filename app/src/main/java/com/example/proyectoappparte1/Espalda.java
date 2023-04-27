@@ -28,35 +28,35 @@ public class Espalda extends AppCompatActivity {
 
     }
     public void espalda1 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "dors2");
         startActivity(i);
 
 
     }
     public void espalda2 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "dor6");
         startActivity(i);
 
 
     }
     public void espalda3 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "dominadas");
         startActivity(i);
 
 
     }
     public void espalda4 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "alterno");
         startActivity(i);
 
 
     }
     public void espalda5 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "scott");
         startActivity(i);
 

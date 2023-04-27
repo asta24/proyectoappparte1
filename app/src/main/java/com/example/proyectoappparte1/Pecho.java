@@ -29,42 +29,42 @@ public class Pecho extends AppCompatActivity {
 
     }
     public void pecho1 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "banca");
         startActivity(i);
 
 
     }
     public void pecho2 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "pressinclinadogif");
         startActivity(i);
 
 
     }
     public void pecho3 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "press_militar");
         startActivity(i);
 
 
     }
     public void pecho4 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "laterales");
         startActivity(i);
 
 
     }
     public void pecho5 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "tricepsnopolea");
         startActivity(i);
 
 
     }
     public void pecho6 (View view) {
-        Intent i = new Intent(this, VerBrazo.class);
+        Intent i = new Intent(this, MainActivityTemporizador.class);
         i.putExtra("gif_seleccionado", "fondos");
         startActivity(i);
 
