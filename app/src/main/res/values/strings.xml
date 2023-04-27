@@ -15,13 +15,17 @@
     ----------------------------------------------------------------------
     // MENU PRINCIPAL //
 
+
+
+    // OVERFLOW //
+
     <string name="item3">Rutinas adicionales </string>
     <string name="item2">Alimentación</string>
     <string name="item1">Estiramientos</string>
     <string name="item4">Noticias</string>
     ----------------------------------------------------------------------
 
-    // ACTIVITY MAIN ADICIONALES //
+    // ADICIONALES //
 
     <string name="image_espalda">Imagen espalda fondo</string>
     <string name="image_piernas">Imagen pierna fondo </string>
@@ -29,20 +33,25 @@
     <string name="image_hombros">Imagen hombros fondo </string>
     <string name="image_pecho">Imagen pecho fondo </string>
 
-    // ACTIVITY MAIN ADICIONALES 2 //
+    // ADICIONALES 2 //
 
     <string name="wv_adicionales">Campo para ver web de ejercicios adicionales</string>
     <string name="btn_volveradicional2">Botón para volver a menú principal</string>
 
     -------------------------------------------------------------------------------
 
-    // ACTIVITY MAIN ESTIRAMIENTOS //
+    // ESTIRAMIENTOS //
 
 
-    // ACTIVITY MAIN ESTIRAMIENTOS 2 //
+    // ESTIRAMIENTOS 2 //
 
     <string name="wv_estiramientos">Campo para ver web de ejercicios adicionales</string>
     <string name="btn_volverestiramientos2">Botón para volver a menú principal</string>
+
+    // TEMPORIZADOR //
+
+    <string name="play">Botón para iniciar temporizador y música de 30 segundos</string>
+    <string name="progress_bar">Barra de progreso de los 30 segundos</string>
 
 
 </resources>

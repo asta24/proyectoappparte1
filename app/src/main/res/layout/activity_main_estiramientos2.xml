@@ -9,11 +9,8 @@
 
     <WebView
         android:id="@+id/wv_estiramientos"
-        android:layout_width="388dp"
-        android:layout_height="568dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="409dp"
+        android:layout_height="601dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
