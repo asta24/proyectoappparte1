@@ -28,36 +28,42 @@ public class Espalda extends AppCompatActivity {
 
     }
     public void espalda1 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "dors2");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void espalda2 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "dor6");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void espalda3 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "dominadas");
+        i.putExtra("series", "Realiza 2 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void espalda4 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "alterno");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
+
         startActivity(i);
 
 
     }
     public void espalda5 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "scott");
+        i.putExtra("series", "Realiza 4 series de este ejercicio");
         startActivity(i);
 
 

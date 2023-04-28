@@ -27,43 +27,49 @@ public class Pierna extends AppCompatActivity {
         tv_nombre5.setText(nombreUsuario);
     }
     public void pierna1 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
-        //i.putExtra("gif_seleccionado", "sentadilla");
+        Intent i = new Intent(this, tiempo.class);
+        i.putExtra("gif_seleccionado", "sentadilla");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pierna2 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "bulgara");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pierna3 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "femoral");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pierna4 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "sentado");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pierna5 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "piernaestendida");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pierna6 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "abdomen");
+        i.putExtra("series", "Realiza 5 series de este ejercicio");
         startActivity(i);
 
 

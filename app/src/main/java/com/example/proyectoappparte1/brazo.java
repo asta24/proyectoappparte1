@@ -26,43 +26,49 @@ public class brazo extends AppCompatActivity {
         tv_nombre2.setText(nombreUsuario);
     }
     public void brazo1 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "curlbueno");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void brazo2 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "concentrado");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void brazo3 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "martillo");
+        i.putExtra("series", "Realiza 2 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void brazo4 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "tricepsunbrazo");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void brazo5 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "tricepsnopolea");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void brazo6 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "antebrazo");
+        i.putExtra("series", "Realiza 2 series de este ejercicio");
         startActivity(i);
 
 

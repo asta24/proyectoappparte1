@@ -7,6 +7,17 @@
     android:background="#BBB0DA"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="183dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="560dp"
+        android:text="Alejandro Revilla Blanco Francisco Javier Jiménez Carchcenilla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/et_usuario"
         android:layout_width="277dp"

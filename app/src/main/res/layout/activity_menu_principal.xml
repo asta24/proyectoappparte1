@@ -11,6 +11,17 @@
     tools:context=".MenuPrincipal">
 
     <TextView
+        android:id="@+id/textView25"
+        android:layout_width="183dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="560dp"
+        android:text="Alejandro Revilla Blanco Francisco Javier Jiménez Carchcenilla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/tv_fondo"
         android:layout_width="120dp"
         android:layout_height="33dp"

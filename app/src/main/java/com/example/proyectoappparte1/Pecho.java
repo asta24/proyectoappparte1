@@ -29,43 +29,49 @@ public class Pecho extends AppCompatActivity {
 
     }
     public void pecho1 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "banca");
+        i.putExtra("series", "Realiza 4 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pecho2 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "pressinclinadogif");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pecho3 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "press_militar");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pecho4 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "laterales");
+        i.putExtra("series", "Realiza 3 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pecho5 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "tricepsnopolea");
+        i.putExtra("series", "Realiza 4 series de este ejercicio");
         startActivity(i);
 
 
     }
     public void pecho6 (View view) {
-        Intent i = new Intent(this, MainActivityTemporizador.class);
+        Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "fondos");
+        i.putExtra("series", "Realiza 2 series de este ejercicio");
         startActivity(i);
 
 
