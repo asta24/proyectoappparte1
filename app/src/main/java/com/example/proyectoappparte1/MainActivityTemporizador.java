@@ -23,6 +23,7 @@ public class MainActivityTemporizador extends AppCompatActivity {
     private MediaPlayer mp;
 
 
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class MainActivityTemporizador extends AppCompatActivity {
         mp = android.media.MediaPlayer.create(MainActivityTemporizador.this, R.raw.rocky);
 
         play.setOnClickListener(new View.OnClickListener() {
-            @Override
+
             public void onClick(View v) {
                 if (timerRunning) {
                     // El temporizador ya está en marcha
@@ -44,51 +45,53 @@ public class MainActivityTemporizador extends AppCompatActivity {
                 }
                 mp.start();
             }
+
+
+            private void startTimer() {
+                countDownTimer = new CountDownTimer(timeLeftInMilliseconds, 1000) {
+                    @Override
+                    public void onTick(long millisUntilFinished) {
+                        timeLeftInMilliseconds = millisUntilFinished;
+
+
+                        // Obtener el número de segundos restantes
+                        int seconds = (int) (millisUntilFinished / 1000);
+
+                        // Verificar si quedan 5 segundos o menos
+                        if (seconds <= 5) {
+                            // Mostrar los segundos restantes en la pantalla
+                            Toast.makeText(MainActivityTemporizador.this, String.valueOf(seconds), Toast.LENGTH_SHORT).show();
+                        }
+
+                        updateProgressBar();
+                    }
+
+
+                    @Override
+                    public void onFinish() {
+                        timerRunning = false;
+                        updateProgressBar();
+                        Toast.makeText(MainActivityTemporizador.this, "El temporizador ha terminado.", Toast.LENGTH_SHORT).show();
+                    }
+                }.start();
+
+                timerRunning = true;
+                updateProgressBar();
+            }
+
+            //Método para reproducir MediaPlayer //
+            public void MediaPlayer(View view) {
+                android.media.MediaPlayer mp = android.media.MediaPlayer.create(MainActivityTemporizador.this, R.raw.rocky);
+                mp.start();
+            }
+
+
+            private void updateProgressBar() {
+                progressBar.setMax(30000);
+                progressBar.setProgress((int) (30000 - timeLeftInMilliseconds));
+                progressBar.setVisibility(View.VISIBLE);
+            }
+
         });
-    }
-
-    private void startTimer() {
-        countDownTimer = new CountDownTimer(timeLeftInMilliseconds, 1000) {
-            @Override
-            public void onTick(long millisUntilFinished) {
-                timeLeftInMilliseconds = millisUntilFinished;
-
-
-                // Obtener el número de segundos restantes
-                int seconds = (int) (millisUntilFinished / 1000);
-
-                // Verificar si quedan 5 segundos o menos
-                if (seconds <= 5) {
-                    // Mostrar los segundos restantes en la pantalla
-                    Toast.makeText(MainActivityTemporizador.this, String.valueOf(seconds), Toast.LENGTH_SHORT).show();
-                }
-
-                updateProgressBar();
-            }
-
-
-            @Override
-            public void onFinish() {
-                timerRunning = false;
-                updateProgressBar();
-                Toast.makeText(MainActivityTemporizador.this, "El temporizador ha terminado.", Toast.LENGTH_SHORT).show();
-            }
-        }.start();
-
-        timerRunning = true;
-        updateProgressBar();
-    }
-
-    //Método para reproducir MediaPlayer //
-    public void MediaPlayer (View view) {
-        android.media.MediaPlayer mp = android.media.MediaPlayer.create(MainActivityTemporizador.this, R.raw.rocky);
-        mp.start();
-    }
-
-
-    private void updateProgressBar() {
-        progressBar.setMax(30000);
-        progressBar.setProgress((int) (30000 - timeLeftInMilliseconds));
-        progressBar.setVisibility(View.VISIBLE);
-    }
+    };
 }

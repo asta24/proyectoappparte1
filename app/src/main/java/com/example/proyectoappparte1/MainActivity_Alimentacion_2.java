@@ -26,7 +26,5 @@ public class MainActivity_Alimentacion_2 extends AppCompatActivity {
         }
         wv_alimentacion.loadUrl(URL);
     }
-    public void Volver (View view){
-        finish();
-    }
+
 }

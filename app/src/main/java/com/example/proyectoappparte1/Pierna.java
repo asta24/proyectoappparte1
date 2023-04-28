@@ -28,7 +28,7 @@ public class Pierna extends AppCompatActivity {
     }
     public void pierna1 (View view) {
         Intent i = new Intent(this, MainActivityTemporizador.class);
-        i.putExtra("gif_seleccionado", "sentadilla");
+        //i.putExtra("gif_seleccionado", "sentadilla");
         startActivity(i);
 
 

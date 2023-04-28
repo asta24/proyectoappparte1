@@ -55,6 +55,9 @@
             android:name=".MainActivity_Adicionales"
             android:exported="false" />
         <activity
+            android:name=".MainActivityAdicionales_2"
+            android:exported="false" />
+        <activity
             android:name=".MenuPrincipal"
             android:exported="false" />
         <activity

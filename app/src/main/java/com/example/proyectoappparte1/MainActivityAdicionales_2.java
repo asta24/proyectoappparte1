@@ -25,9 +25,7 @@ public class MainActivityAdicionales_2 extends AppCompatActivity {
         }
         wv_adicionales.loadUrl(URL);
     }
-        public void Volver (View view){
-            finish();
-        }
+
     }
 
 

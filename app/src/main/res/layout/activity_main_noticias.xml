@@ -16,17 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName6"
+        <TextView
+            android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/edittext_borde_redondeado"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:onClick="Noticiasmaquinas"
+            android:background="@drawable/textview_borde_redondeado_sincolor"
             android:text="¡¡Las mejores máquinas para tu casa!!"
             android:textAlignment="center"
-            android:textAllCaps="false"
             android:textColor="#1D0C80"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
@@ -38,14 +34,11 @@
             android:onClick="Noticiasmaquinas"
             app:srcCompat="@drawable/noticias_maquinas" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName7"
+        <TextView
+            android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/edittext_borde_redondeado"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:onClick="Noticiassuplementos"
+            android:background="@drawable/textview_borde_redondeado_sincolor"
             android:text="Creatina, Proteína, Caseína...!!"
             android:textAlignment="center"
             android:textColor="#1D0C80"

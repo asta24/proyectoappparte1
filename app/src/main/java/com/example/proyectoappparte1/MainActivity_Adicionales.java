@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
+
 
 public class MainActivity_Adicionales extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class MainActivity_Adicionales extends AppCompatActivity {
 
         public void Navegarpecho(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
-        i.putExtra("sitioWeb", "https://www.fitnessintegral.org/rutina-de-pecho-gym/");
+        i.putExtra("sitioWeb", "https://www.menshealth.com/es/fitness/a27264157/mejores-ejercicios-pecho-pectoral/");
         startActivity(i);
     }
         public void Navegarbrazo(View view){

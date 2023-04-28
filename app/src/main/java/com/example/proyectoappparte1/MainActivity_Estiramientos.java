@@ -20,27 +20,27 @@ public class MainActivity_Estiramientos extends AppCompatActivity {
 
     public void Estiramientospecho(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
-        i.putExtra("sitioWeb", "https://www.youtube.com/watch?v=LVZZCk7mijw");
+        i.putExtra("sitioWeb", "https://www.vitonica.com/entrenamiento/ejercicios-para-estirar-el-pectoral");
         startActivity(i);
     }
     public void Estiramientosbrazos(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
-        i.putExtra("sitioWeb", "https://www.youtube.com/watch?v=HwBI6ZPnooA");
+        i.putExtra("sitioWeb", "https://www.marie-claire.es/belleza/15824.html");
         startActivity(i);
     }
     public void Estiramientospiernas(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
-        i.putExtra("sitioWeb", "https://www.youtube.com/watch?v=-uJIvJPGqQM");
+        i.putExtra("sitioWeb", "https://www.glamour.es/belleza/cuerpo/articulos/estiramientos-piernas-dolor-muscular/44447");
         startActivity(i);
     }
     public void Estiramientosespalda(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
-        i.putExtra("sitioWeb", "https://www.youtube.com/watch?v=Lk9srPgjF4c");
+        i.putExtra("sitioWeb", "https://www.tucanaldesalud.es/es/teinteresa/consejos-saludables-trabajar-frente-pantalla/ejercicios-estiramientos-espalda");
         startActivity(i);
     }
     public void Estiramientoshombros(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
-        i.putExtra("sitioWeb", "https://www.youtube.com/watch?v=LTkL3IaV8Go");
+        i.putExtra("sitioWeb", "https://www.efisioterapia.net/articulos/ejercicios-estiramientos-hombros");
         startActivity(i);
     }
 }
