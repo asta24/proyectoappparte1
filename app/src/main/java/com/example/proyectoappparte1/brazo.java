@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class brazo extends AppCompatActivity {
     private TextView tv_nombre2;
@@ -24,6 +25,7 @@ public class brazo extends AppCompatActivity {
         imageView.setImageResource(imagenSeleccionada);
         String nombreUsuario = aplicacion.getNombreUsuario();
         tv_nombre2.setText(nombreUsuario);
+        Toast.makeText(aplicacion, "Selecciona un ejercicio", Toast.LENGTH_LONG).show();
     }
     //mandamos el gif y el text a la actividad tiempo
     public void brazo1 (View view) {
