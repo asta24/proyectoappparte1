@@ -28,6 +28,7 @@ public class Pecho extends AppCompatActivity {
         tv_nombre3.setText(nombreUsuario);
 
     }
+    //mandamos el gif y el text a la actividad tiempo
     public void pecho1 (View view) {
         Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "banca");

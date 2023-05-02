@@ -76,7 +76,7 @@ public class tiempo extends AppCompatActivity {
     }
 
 
-
+//empieza el reloj
     private void startTimer() {
         if (mediaPlayer3 != null && !mediaPlayer3.isPlaying()) {
             mediaPlayer3.start();
@@ -92,6 +92,7 @@ public class tiempo extends AppCompatActivity {
             }
 
             @Override
+            //el metodo de terminar la cuenta del reloj
             public void onFinish() {
                 mediaPlayer3.stop();
                 mediaPlayer2.start();
@@ -106,7 +107,7 @@ public class tiempo extends AppCompatActivity {
         mButtonStartPause.setText("Pausa");
         mButtonReset.setVisibility(View.INVISIBLE);
     }
-
+//el metodo para pausar el tiempo
     private void pauseTimer() {
 
         if ( mediaPlayer3 != null &&  mediaPlayer3.isPlaying()) {
@@ -121,7 +122,7 @@ public class tiempo extends AppCompatActivity {
         mButtonStartPause.setText("Continuar");
         mButtonReset.setVisibility(View.VISIBLE);
     }
-
+//reset del tiempo
     private void resetTimer() {
         if (mediaPlayer3 != null && mediaPlayer3.isPlaying()) {
             mediaPlayer3.stop();

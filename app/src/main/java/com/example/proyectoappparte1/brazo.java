@@ -25,6 +25,7 @@ public class brazo extends AppCompatActivity {
         String nombreUsuario = aplicacion.getNombreUsuario();
         tv_nombre2.setText(nombreUsuario);
     }
+    //mandamos el gif y el text a la actividad tiempo
     public void brazo1 (View view) {
         Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "curlbueno");
@@ -65,6 +66,7 @@ public class brazo extends AppCompatActivity {
 
 
     }
+
     public void brazo6 (View view) {
         Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "antebrazo");

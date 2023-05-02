@@ -26,6 +26,7 @@ public class Pierna extends AppCompatActivity {
         String nombreUsuario = aplicacion.getNombreUsuario();
         tv_nombre5.setText(nombreUsuario);
     }
+    //mandamos el gif y el text a la actividad tiempo
     public void pierna1 (View view) {
         Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "sentadilla");
