@@ -14,6 +14,7 @@ import android.widget.Toast;
 public class MenuPrincipal extends AppCompatActivity {
     private TextView tv_nombre;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +22,7 @@ public class MenuPrincipal extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
         ImageView imageView = findViewById(R.id.iv_pasar);
-        TextView tv_nombre = findViewById(R.id.tv_nombre);
+        tv_nombre = findViewById(R.id.tv_nombre);
         Aplicacion aplicacion = (Aplicacion) getApplication();
         int imagenSeleccionada = aplicacion.getImagenSeleccionada();
         imageView.setImageResource(imagenSeleccionada);
@@ -30,14 +31,14 @@ public class MenuPrincipal extends AppCompatActivity {
 
 
     }
-
+//creamos el overflow
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.overflow, menu);
         return true;
 
     }
 
-    //Método para aherhar las acciones a todos los botones
+    //Método para aherhar las acciones a todos los botones del overflow
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
 
@@ -61,7 +62,9 @@ public class MenuPrincipal extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    //dependiendo de la imagen q pulse manda a su respectiva actividad
     public void brazo (View view){
+
         Intent i = new Intent(this, brazo. class);
         startActivity(i);
     }

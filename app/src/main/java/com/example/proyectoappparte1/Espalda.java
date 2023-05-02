@@ -27,6 +27,7 @@ public class Espalda extends AppCompatActivity {
         tv_nombre4.setText(nombreUsuario);
 
     }
+    //mandamos el gif y el text a la actividad tiempo
     public void espalda1 (View view) {
         Intent i = new Intent(this, tiempo.class);
         i.putExtra("gif_seleccionado", "dors2");

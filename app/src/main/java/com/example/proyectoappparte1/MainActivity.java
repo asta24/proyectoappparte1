@@ -8,11 +8,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ImageView iv_avatar1, iv_avatar2, iv_avatar3, iv_avatar4, iv_avatar5, iv_avatar6;
     private EditText et_usuario;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
         iv_avatar5 = (ImageView) findViewById(R.id.iv_avatar5);
         iv_avatar6 = (ImageView) findViewById(R.id.iv_avatar6);
         et_usuario = (EditText) findViewById(R.id.et_usuario);
+
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado_background);
 
     }
+    //un onclick para cada avatar donde dependiendo del que seleccione se mandara un avatar o otro
     public void onClick(View v) {
         String nombreUsuario = et_usuario.getText().toString();
         int imagenSeleccionada = 0;
