@@ -78,6 +78,9 @@ public class tiempo extends AppCompatActivity {
 
 
     private void startTimer() {
+        if (mediaPlayer3 != null && !mediaPlayer3.isPlaying()) {
+            mediaPlayer3.start();
+        }
         mediaPlayer.start();
         mediaPlayer3.start();
         mCountDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
@@ -105,7 +108,11 @@ public class tiempo extends AppCompatActivity {
     }
 
     private void pauseTimer() {
-        mediaPlayer3.stop();
+
+        if ( mediaPlayer3 != null &&  mediaPlayer3.isPlaying()) {
+            mediaPlayer3.pause();
+        }
+
 
 
 
@@ -116,6 +123,12 @@ public class tiempo extends AppCompatActivity {
     }
 
     private void resetTimer() {
+        if (mediaPlayer3 != null && mediaPlayer3.isPlaying()) {
+            mediaPlayer3.stop();
+            mediaPlayer3.release();
+            mediaPlayer3 = null;
+        }
+
         mTimeLeftInMillis = mStartTimeInMillis;
         updateCountDownText();
         mButtonReset.setVisibility(View.INVISIBLE);
