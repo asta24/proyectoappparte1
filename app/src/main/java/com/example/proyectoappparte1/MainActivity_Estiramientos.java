@@ -17,7 +17,7 @@ public class MainActivity_Estiramientos extends AppCompatActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
     }
 
-
+    // Páginas web que se acceden al pinchar en el overflow: Estiramientos //
     public void Estiramientospecho(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
         i.putExtra("sitioWeb", "https://www.vitonica.com/entrenamiento/ejercicios-para-estirar-el-pectoral");

@@ -17,7 +17,7 @@ public class MainActivity_Adicionales extends AppCompatActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
     }
 
-
+    // Páginas web que se acceden al pinchar en el overflow: Rutinas adicionales//
         public void Navegarpecho(View view){
         Intent i = new Intent(this, MainActivityAdicionales_2.class);
         i.putExtra("sitioWeb", "https://www.menshealth.com/es/fitness/a27264157/mejores-ejercicios-pecho-pectoral/");

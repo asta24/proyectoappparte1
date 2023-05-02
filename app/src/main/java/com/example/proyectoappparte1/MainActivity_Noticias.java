@@ -15,6 +15,8 @@ public class MainActivity_Noticias extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
     }
+
+    // Páginas web que se acceden al pinchar en el overflow: Noticias //
     public void Noticiasmaquinas(View view){
         Intent i = new Intent(this, MainActivity_noticias_2.class);
         i.putExtra("sitioWeb", "https://www.gymcompany.es/");

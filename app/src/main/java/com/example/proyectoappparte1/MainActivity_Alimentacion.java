@@ -16,6 +16,7 @@ public class MainActivity_Alimentacion extends AppCompatActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launchermamado);
     }
 
+    // Páginas web que se acceden al pinchar en el overflow: Alimentación //
     public void Menuvolumen(View view){
         Intent i = new Intent(this, MainActivity_Alimentacion_2.class);
         i.putExtra("sitioWeb", "https://www.cambiatufisico.com/dieta-herculea/");
